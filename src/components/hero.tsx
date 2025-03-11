@@ -6,10 +6,10 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="container flex min-h-[calc(100vh-3.5rem)] max-w-screen-2xl flex-col space-y-8">
+    <section className="container flex min-h-[calc(100vh-3.5rem)] max-w-screen-2xl flex-col space-y-8 bg-gradient-to-b from-transparent to-transparent/50">
       <div className="relative w-full h-screen flex  items-center justify-center text-white overflow-hidden">
         {/* Background Overlay */}
-        <div className="absolute w-full h-full bg-black/50" />
+        <div className="absolute w-full h-full " />
 
         {/* Content */}
         <div className="relative z-10 text-center px-6">
@@ -17,7 +17,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl font-bold text-yellow-600"
+            className="text-5xl font-bold text-yellow-400"
           >
             🎉 Celebrating 25 Glorious Years! 🎉
           </motion.h1>

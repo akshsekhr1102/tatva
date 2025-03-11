@@ -157,7 +157,7 @@ const LocationBlock = () => (
 
 const EmailListBlock = () => (
   <Block className="col-span-12 md:col-span-9">
-    <p className="mb-3 text-lg">Stay Updated with Tatva 2025!</p>
+    <p className="mb-3 text-lg">Stay Updated with Tatcetva 2025!</p>
     <form
       onSubmit={(e) => e.preventDefault()}
       className="flex items-center gap-2"
@@ -183,7 +183,7 @@ const Logo = () => {
       width={400}
       height={400}
       src="/logo.png"
-      alt="Tatva 2025 Logo"
+      alt="Tattva 2025 Logo"
       className="mx-auto "
     />
   );
