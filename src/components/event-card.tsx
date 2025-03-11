@@ -48,8 +48,8 @@ export function EventCard({ event, index }: { event: Event; index: number }) {
   return (
     <Link href={`/events/${titleToSlug(event.title)}`} className="block h-full">
       <Card className="overflow-hidden h-full transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/20 bg-black/40 backdrop-blur-sm border-gray-800 group">
-        <div className="relative">
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 z-10" />
+        <div className="relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent overflow-hidden to-black/80 z-10" />
           <div
             className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r ${gradient}`}
           />

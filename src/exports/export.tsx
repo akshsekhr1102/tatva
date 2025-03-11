@@ -11,7 +11,7 @@ export const evento: Event[] = [
     time: "2:00 PM - 6:00 PM",
     venue: "Open Air Theatre",
     category: "Cultural",
-    image: "/events/image1.jpeg",
+    image: "/events/image6.jpeg",
     rules: [
       "Performance time limit is 4 minutes.",
       "Participants must bring their own karaoke/instrumental tracks.",
@@ -83,7 +83,7 @@ export const evento: Event[] = [
     time: "4:00 PM - 7:00 PM",
     venue: "Auditorium",
     category: "Cultural",
-    image: "/events/group-singing.jpeg",
+    image: "/events/image2.jpeg",
     rules: [
       "Team size: 3-8 members.",
       "Performance time limit is 5 minutes.",
@@ -148,7 +148,7 @@ export const evento: Event[] = [
     time: "3:00 PM - 6:00 PM",
     venue: "Open Air Theatre",
     category: "Cultural",
-    image: "/events/solo-dance.jpeg",
+    image: "/events/image3.jpeg",
     rules: [
       "Performance time limit: 3-5 minutes.",
       "Participants must bring their own music track in MP3 format.",
@@ -212,7 +212,7 @@ export const evento: Event[] = [
     time: "3:00 PM - 6:00 PM",
     venue: "Open Air Theatre",
     category: "Cultural",
-    image: "/events/solo-dance.jpeg",
+    image: "/events/image9.jpeg",
     rules: [
       "Performance time limit: 3-5 minutes.",
       "Participants must bring their own music track in MP3 format.",
@@ -276,7 +276,7 @@ export const evento: Event[] = [
     time: "6:00 PM - 8:00 PM",
     venue: "Open Air Theatre",
     category: "Cultural",
-    image: "/events/duo-dance.jpeg",
+    image: "/events/image4.jpeg",
     rules: [
       "Performance time limit: 4-6 minutes.",
       "Participants must bring their own music track in MP3 format.",
@@ -337,7 +337,7 @@ export const evento: Event[] = [
     time: "5:00 PM - 8:00 PM",
     venue: "Main Stage",
     category: "Cultural",
-    image: "/events/group-dance.jpeg",
+    image: "/events/image5.jpeg",
     rules: [
       "Team size: 4-12 members.",
       "Performance time limit: 5-8 minutes.",
@@ -398,7 +398,7 @@ export const evento: Event[] = [
     time: "2:00 PM - 4:00 PM",
     venue: "Auditorium",
     category: "Cultural",
-    image: "/events/mime.jpeg",
+    image: "/events/image6.jpeg",
     rules: [
       "Team size: 3-8 members.",
       "Performance time limit: 5-7 minutes.",
@@ -460,7 +460,7 @@ export const evento: Event[] = [
     time: "4:00 PM - 6:00 PM",
     venue: "Auditorium",
     category: "Cultural",
-    image: "/events/mad-ads.jpeg",
+    image: "/events/image7.jpeg",
     rules: [
       "Team size: 3-6 members.",
       "Performance time limit: 3-5 minutes.",
@@ -522,7 +522,7 @@ export const evento: Event[] = [
     time: "All Day",
     venue: "College Campus",
     category: "Artistic",
-    image: "/events/photography.jpeg",
+    image: "/events/image9.jpeg",
     rules: [
       "Each participant can submit up to 3 photographs.",
       "Photos must be original and taken within the event timeframe.",
@@ -582,7 +582,7 @@ export const evento: Event[] = [
     time: "10:00 AM - 4:00 PM",
     venue: "Auditorium",
     category: "Artistic",
-    image: "/events/short-film.jpeg",
+    image: "/events/image10.jpeg",
     rules: [
       "Team size: 2-6 members.",
       "Film duration: 3-7 minutes.",
@@ -644,7 +644,7 @@ export const evento: Event[] = [
     time: "11:00 AM - 3:00 PM",
     venue: "College Campus",
     category: "Adventure",
-    image: "/events/treasure-hunt.jpeg",
+    image: "/events/image11.jpeg",
     rules: [
       "Team size: 3-5 members.",
       "Each clue leads to the next location.",
@@ -706,7 +706,7 @@ export const evento: Event[] = [
     time: "7:00 PM - 10:00 PM",
     venue: "Main Stage",
     category: "Cultural",
-    image: "/events/fashion-show.jpeg",
+    image: "/events/image12.jpeg",
     rules: [
       "Team size: 5-12 members.",
       "Each team gets 10 minutes on stage.",

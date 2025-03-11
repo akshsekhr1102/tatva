@@ -1,19 +1,16 @@
 import { Navbar } from "@/components/navbar";
 
-export default function SponsorsPage() {
+export default function TeamPage() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center relative">
-      <div
-        style={{
-          backgroundImage: "url('/background.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-        className="min-h-screen w-full flex flex-col items-center   bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-800  to-[#1c1c1d] "
-      >
-        <Navbar />
-      </div>
+    <div
+      className="min-h-screen w-full flex flex-col bg-fixed bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/background.png')" }}
+    >
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Page Content */}
+      <div className="container mx-auto px-4 py-8"></div>
     </div>
   );
 }

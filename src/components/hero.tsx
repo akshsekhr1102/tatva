@@ -31,7 +31,7 @@ export default function Hero() {
             Meets Grandeur! 🌟
           </motion.p>
           <p className="text-xl font-semibold mt-2 ">
-            April 03-04, 2025 |
+            April 04-05, 2025 |
             <span className="text-yellow-400">
               {" "}
               Vemana Institute of Technology
@@ -44,7 +44,7 @@ export default function Hero() {
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.2 }}
-            className="mt-6 px-6 py-3 bg-red-600/40 text-white rounded-lg inline-block text-lg font-bold"
+            className="mt-6 px-6 py-3 bg-red-400 text-white rounded-lg inline-block text-lg font-bold"
           >
             🎥 In Association with <strong>Bigg Boss Kannada</strong> –
             Experience the Ultimate Entertainment! 🔥

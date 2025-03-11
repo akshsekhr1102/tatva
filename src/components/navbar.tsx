@@ -11,8 +11,8 @@ export const Navbar = () => {
 
   return (
     <header className="py-4 border-b border-white/15 md:border-none sticky top-0 z-20  ">
-      <div className="container mx-auto px-4">
-        <div className="flex md:justify-evenly justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl max-w-2xl mx-auto relative">
+      <div className="container mx-auto px-4  ">
+        <div className="flex md:justify-evenly justify-between backdrop-blur md:backdrop-blur items-center md:border border-white/15 md:p-2.5 rounded-xl max-w-2xl mx-auto relative">
           <div className="absolute inset-0 backdrop-blur -z-10"></div>
 
           {/* Desktop Navigation */}
