@@ -11,7 +11,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="relative bg-gradient-to-b from-transparent/50 to-transparent/30 text-zinc-50 py-16 px-6 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-transparent/50 to-transparent/30 text-white py-16 px-6 overflow-hidden">
       <AnimatePresence>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -25,7 +25,7 @@ const AboutSection = () => {
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1.1, opacity: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="text-6xl font-extrabold text-red-500 mb-6 drop-shadow-lg"
+            className="text-6xl  font-extrabold text-[#D4AF37] mb-6 drop-shadow-lg"
           >
             About Tattva 2025 🎭
           </motion.h2>
@@ -35,29 +35,26 @@ const AboutSection = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="text-xl text-zinc-300 leading-relaxed tracking-wide"
+            className="text-xl text-[#FDF6E3] leading-relaxed tracking-wide font-light"
           >
             Celebrating{" "}
-            <span className="text-yellow-400 font-bold">25 Years</span> of
-            culture, creativity, and passion,
-            <span className="text-red-400 font-bold"> Tattva 2025</span> is a
-            one-of-a-kind cultural extravaganza at
-            <span className="text-blue-400 font-bold">
-              {" "}
+            <span className="text-[#FFD700] font-semibold">25 Years</span> of
+            culture, creativity, and passion,{" "}
+            <span className="text-[#E5C100] font-semibold">Tattva 2025</span> is
+            a one-of-a-kind cultural extravaganza at{" "}
+            <span className="text-[#FAE9B4] font-medium">
               Vemana Institute of Technology, Bangalore
             </span>
-            . Featuring
-            <span className="text-green-400 font-bold">
-              {" "}
+            . Featuring{" "}
+            <span className="text-[#FFE4B5] font-bold">
               electrifying performances
             </span>
             ,{" "}
-            <span className="text-purple-400 font-bold">
+            <span className="text-[#FFD700] font-bold">
               thrilling competitions
             </span>
-            , and an exclusive
-            <span className="text-pink-400 font-bold">
-              {" "}
+            , and an exclusive{" "}
+            <span className="text-[#F5DEB3] font-bold">
               collaboration with Bigg Boss Kannada
             </span>
             , this year’s festival is set to be an unforgettable experience!
@@ -71,7 +68,11 @@ const AboutSection = () => {
             className="mt-8"
           >
             <Link href="/about">
-              <Button variant="default" onClick={handleLearnMore}>
+              <Button
+                variant="default"
+                className="bg-[#FFD700] text-black hover:bg-[#E5C100]"
+                onClick={handleLearnMore}
+              >
                 Learn More
               </Button>
             </Link>
@@ -84,34 +85,34 @@ const AboutSection = () => {
             transition={{ duration: 1, delay: 0.5 }}
             className="mt-12"
           >
-            <h3 className="text-4xl font-bold text-yellow-400 mb-4 drop-shadow-md">
+            <h3 className="text-4xl font-bold text-[#E5C100] mb-4 drop-shadow-md ">
               What to Expect? 🚀
             </h3>
-            <ul className="text-lg text-zinc-300 space-y-3">
+            <ul className="text-lg text-[#FDF6E3] space-y-3 font-light">
               <li>
                 🎤{" "}
-                <span className="text-green-400 font-semibold">
+                <span className="text-[#FFD700] font-semibold">
                   Live Music & Dance
                 </span>{" "}
                 - Experience stunning performances from talented artists.
               </li>
               <li>
                 🏆{" "}
-                <span className="text-purple-400 font-semibold">
+                <span className="text-[#E5C100] font-semibold">
                   Exciting Competitions
                 </span>{" "}
                 - Participate in thrilling contests and showcase your talent.
               </li>
               <li>
                 🎭{" "}
-                <span className="text-blue-400 font-semibold">
+                <span className="text-[#FAE9B4] font-semibold">
                   Drama & Theatre
                 </span>{" "}
                 - Witness captivating plays and theatrical performances.
               </li>
               <li>
                 🎉{" "}
-                <span className="text-pink-400 font-semibold">
+                <span className="text-[#F5DEB3] font-semibold">
                   Fun Activities
                 </span>{" "}
                 - Engage in interactive games, food stalls, and much more!
@@ -121,7 +122,12 @@ const AboutSection = () => {
             {/* Call-to-Action Button */}
             <div className="mt-8">
               <Link href="https://linktr.ee/tattva.vemanothsav">
-                <Button variant="secondary">Register Now</Button>
+                <Button
+                  variant="secondary"
+                  className="bg-[#E5C100] text-black hover:bg-[#C4A000]"
+                >
+                  Register Now
+                </Button>
               </Link>
             </div>
           </motion.div>

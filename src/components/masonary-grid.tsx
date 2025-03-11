@@ -3,21 +3,21 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 const cloudinaryImages = [
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282254/featured1_nsdp80.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282254/featured2_nxbn2d.webp",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282255/featured3_lv55j9.webp",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282255/featured4_o1c884.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282256/featured5_kkd4x4.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282256/featured6_hhxne0.webp",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282257/featured7_spjy7q.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282258/featured8_fkdaqg.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282258/featured9_mud5uv.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282259/featured10_gsp13i.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282260/featured11_zchrof.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282261/featured12_owz6tq.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282262/featured13_vxom5z.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282262/featured14_rllgwn.jpg",
-  "https://res.cloudinary.com/dsnaaw5iy/image/upload/v1741282264/featured15_ng88xq.jpg",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSAwjPvPeBzr3Xm6ekJ0KNG51sqTaHyEit4UDCL",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSA8FSXoOykUsCM2h6GHmpeRxOyVEvTioSDWz50",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSAPnTj4ZhHY0NQjtgd6sIa2Jn14MH39bwWFDku",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSAHg3CdSW1WqU7kIVBg36iphTJn2lyDAbKuxjf",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSAOJQ60DxlM89G0fsIvjSHpyqVBzDiNF3wcT1k",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSAVMih9QKjrGSe02nmHWkXacIFo57wdZgQJDpK",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSAsilvcDGjS5t36ceUpXEmQqArv2zhyofJLV9d",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSArOXssq1cyEFbTuBhAXsg0IHa5ZGwc9oxmN2d",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSAM2PKSJsOFOh3u9Td1WJytVUbRgHQnXZfPArx",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSA4IiBZpQ0DuUbSij9FhCdWM4fypeYA5vRGk7J",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSASsztJLjUXHwn9EAok2LhOVIuTbgZeJ16Nqzi",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSA1AqBO7EDm74hLkPWHSTQueZlXvYBCx5gKdFy",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSATT9yTjR9suFPa1fLKoVW6dI3J8Ab5mQS02Xp",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSADOkiOPpPA1InTftYkFDp6uazB2cqoOgrjH9E",
+  "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSAorGuIHvxMVTEH2zOf1ue8XLJyaDdK7Nrh3ki",
 ];
 
 export default function MasonryGrid() {
