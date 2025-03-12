@@ -3,12 +3,11 @@ import React from "react";
 import { MotionProps, motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
 import {
-  Github,
+  InstagramIcon,
   LinkedinIcon,
   LocateIcon,
   MailIcon,
   MoveRight,
-  X,
   Youtube,
 } from "lucide-react";
 import Image from "next/image";
@@ -92,34 +91,34 @@ const SocialsBlock = () => (
   <>
     <Block className="col-span-6 bg-red-500 md:col-span-3">
       <a
-        href="#"
+        href="https://www.youtube.com/@vemanainstituteoftechnolog9250"
         className="grid h-full place-content-center text-3xl text-white"
       >
         <Youtube />
       </a>
     </Block>
-    <Block className="col-span-6 bg-green-600 md:col-span-3">
+    <Block className="col-span-6 bg-fuchsia-700 md:col-span-3">
       <a
-        href="#"
+        href="mailto:tattva.vemanothsav@gmail.com"
         className="grid h-full place-content-center text-3xl text-white"
       >
-        <Github />
+        <MailIcon />
       </a>
     </Block>
-    <Block className="col-span-6 bg-zinc-50 md:col-span-3">
+    <Block className="col-span-6 bg-blue-500 md:col-span-3">
       <a
-        href="#"
+        href="https://www.linkedin.com/school/vemana-institute-of-technology-koramangala-bengaluru/?originalSubdomain=in"
         className="grid h-full place-content-center text-3xl text-black"
       >
         <LinkedinIcon />
       </a>
     </Block>
-    <Block className="col-span-6 bg-blue-500 md:col-span-3">
+    <Block className="col-span-6 bg-gradient-to-br from-purple-500 via-pink-500 to-yellow-400 md:col-span-3">
       <a
-        href="#"
+        href="https://www.instagram.com/vemanotsav2k25/"
         className="grid h-full place-content-center text-3xl text-white"
       >
-        <X />
+        <InstagramIcon />
       </a>
     </Block>
   </>

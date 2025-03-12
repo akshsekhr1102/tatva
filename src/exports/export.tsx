@@ -1,6 +1,7 @@
 import { Event } from "@/lib/types";
 
 export const evento: Event[] = [
+  // solo singing
   {
     slug: "solo-singing",
     name: "Solo Singing",
@@ -11,7 +12,7 @@ export const evento: Event[] = [
     time: "2:00 PM - 6:00 PM",
     venue: "Open Air Theatre",
     category: "Cultural",
-    image: "/events/image6.jpeg",
+    image: "/events/image1.jpeg",
     rules: [
       "Performance time limit is 4 minutes.",
       "Participants must bring their own karaoke/instrumental tracks.",
@@ -50,11 +51,18 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Aditya",
-        contact: "87654 32109",
-        email: "aditya@example.com",
-        role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/men/22.jpg",
+        name: "Harshini",
+        contact: "8431480568",
+        email: "tattva.vemanothsav@gmail.com",
+        role: "Coordinator",
+        image: "https://ui.shadcn.com/avatars/01.png",
+      },
+      {
+        name: "Yogeeta",
+        contact: "8123997924",
+        email: "tattva.vemanothsav@gmail.com",
+        role: "Coordinator",
+        image: "https://ui.shadcn.com/avatars/01.png",
       },
     ],
     faqs: [
@@ -73,6 +81,7 @@ export const evento: Event[] = [
     featured: false,
     gradient: "from-blue-500 to-teal-400",
   },
+  // group singing
   {
     slug: "group-singing",
     name: "Group Singing",
@@ -89,7 +98,6 @@ export const evento: Event[] = [
       "Performance time limit is 5 minutes.",
       "Participants must bring their own karaoke/instrumental tracks.",
       "Live instruments are allowed but must be arranged by the participants.",
-      "Only acapella or karaoke performances allowed (no pre-recorded vocals).",
       "Judging criteria: Synchronization (30%), Vocal Quality (30%), Stage Presence (20%), Overall Performance (20%).",
     ],
     eligibility: [
@@ -99,7 +107,7 @@ export const evento: Event[] = [
     registration: {
       method: "Online Registration",
       deadline: "April 3, 2025",
-      fee: "₹500 per group",
+      fee: "₹269 per group",
       link: "#register",
     },
     prizes: [
@@ -116,11 +124,18 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Neha Sharma",
-        contact: "98765 43210",
-        email: "neha@example.com",
+        name: "Suchitha",
+        contact: "8050671794",
+        email: "tattva.vemanothsav@gmail.com",
         role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/women/24.jpg",
+        image: "https://ui.shadcn.com/avatars/01.png",
+      },
+      {
+        name: "Vivek",
+        contact: "9380818263",
+        email: "tattva.vemanothsav@gmail.com",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/02.png",
       },
     ],
     faqs: [
@@ -138,6 +153,7 @@ export const evento: Event[] = [
     featured: false,
     gradient: "from-pink-500 to-red-400",
   },
+  // solo dance
   {
     slug: "solo-dance",
     name: "Solo Dance",
@@ -180,11 +196,18 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Riya Patel",
-        contact: "87654 98765",
-        email: "riya@example.com",
+        name: "Shivani",
+        contact: "7022062773",
+        email: "",
         role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/women/32.jpg",
+        image: "https://ui.shadcn.com/avatars/01.png",
+      },
+      {
+        name: "Shamitha",
+        contact: "8147751063",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/01.png",
       },
     ],
     faqs: [
@@ -202,70 +225,7 @@ export const evento: Event[] = [
     featured: false,
     gradient: "from-purple-500 to-indigo-400",
   },
-  {
-    slug: "solo-dance",
-    name: "Solo Dance",
-    tagline: "Express yourself through movement",
-    description:
-      "A platform to showcase individual talent in dance. Participants can perform freestyle, classical, contemporary, or any other dance form.",
-    date: "April 6, 2025",
-    time: "3:00 PM - 6:00 PM",
-    venue: "Open Air Theatre",
-    category: "Cultural",
-    image: "/events/image9.jpeg",
-    rules: [
-      "Performance time limit: 3-5 minutes.",
-      "Participants must bring their own music track in MP3 format.",
-      "Props are allowed but must be arranged by the participant.",
-      "Obscene gestures or inappropriate content will lead to disqualification.",
-      "Judging criteria: Choreography (30%), Expressions (20%), Synchronization (20%), Energy (20%), Overall Impact (10%).",
-    ],
-    eligibility: [
-      "Open to all college students with valid ID cards.",
-      "Professional dancers are not eligible.",
-    ],
-    registration: {
-      method: "Online Registration",
-      deadline: "April 5, 2025",
-      fee: "₹200 per participant",
-      link: "#register",
-    },
-    prizes: [
-      {
-        position: "1st Prize",
-        amount: "₹7,000",
-        description: "Cash prize + Trophy + Certificate",
-      },
-      {
-        position: "2nd Prize",
-        amount: "₹3,000",
-        description: "Cash prize + Certificate",
-      },
-    ],
-    coordinators: [
-      {
-        name: "Riya Patel",
-        contact: "87654 98765",
-        email: "riya@example.com",
-        role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/women/32.jpg",
-      },
-    ],
-    faqs: [
-      {
-        question: "Can I use multiple songs in my performance?",
-        answer: "Yes, you can mix multiple songs within the time limit.",
-      },
-      {
-        question: "Are classical dance performances allowed?",
-        answer: "Yes, any dance form is welcome.",
-      },
-    ],
-    maxTeamSize: 1,
-    minTeamSize: 1,
-    featured: false,
-    gradient: "from-purple-500 to-indigo-400",
-  },
+  // duo dance
   {
     slug: "duo-dance",
     name: "Duo Dance",
@@ -305,11 +265,18 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Arjun Mehta",
-        contact: "78945 12367",
-        email: "arjun@example.com",
+        name: "Meghana ",
+        contact: "8310536099",
+        email: "",
         role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/men/34.jpg",
+        image: "https://ui.shadcn.com/avatars/01.png",
+      },
+      {
+        name: "Ashika  ",
+        contact: "8073132073",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/01.png",
       },
     ],
     faqs: [
@@ -327,6 +294,7 @@ export const evento: Event[] = [
     featured: false,
     gradient: "from-orange-500 to-red-400",
   },
+  // group dance
   {
     slug: "group-dance",
     name: "Group Dance",
@@ -366,11 +334,18 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Priya Verma",
-        contact: "98234 56789",
-        email: "priya@example.com",
+        name: "Gouri ",
+        contact: "8904233885",
+        email: "",
         role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/women/42.jpg",
+        image: "https://ui.shadcn.com/avatars/01.png",
+      },
+      {
+        name: "Mahima ",
+        contact: "8660579490",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/01.png",
       },
     ],
     faqs: [
@@ -388,6 +363,7 @@ export const evento: Event[] = [
     featured: false,
     gradient: "from-green-500 to-blue-400",
   },
+  // mime
   {
     slug: "mime",
     name: "Mime",
@@ -428,11 +404,18 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Rahul Singh",
-        contact: "98765 43221",
-        email: "rahul@example.com",
+        name: "Shashwitha",
+        contact: "74116 74933",
+        email: "",
         role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/men/50.jpg",
+        image: "https://ui.shadcn.com/avatars/01.png",
+      },
+      {
+        name: "Rachana ",
+        contact: "7348864567",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/01.png",
       },
     ],
     faqs: [
@@ -450,6 +433,7 @@ export const evento: Event[] = [
     featured: false,
     gradient: "from-gray-500 to-black",
   },
+  // mad ads
   {
     slug: "mad-ads",
     name: "Mad Ads",
@@ -489,11 +473,18 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Aisha Khan",
-        contact: "87654 32188",
-        email: "aisha@example.com",
+        name: "Chaitra",
+        contact: "9738485144",
+        email: "",
         role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/women/52.jpg",
+        image: "https://ui.shadcn.com/avatars/01.png",
+      },
+      {
+        name: "Sanjana ",
+        contact: "9008419329",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/01.png",
       },
     ],
     faqs: [
@@ -512,6 +503,7 @@ export const evento: Event[] = [
     featured: false,
     gradient: "from-yellow-500 to-orange-400",
   },
+  // photography
   {
     slug: "photography",
     name: "Photography",
@@ -550,11 +542,18 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Vikram Joshi",
-        contact: "98765 33210",
-        email: "vikram@example.com",
+        name: "Sagar",
+        contact: "9880906923",
+        email: "",
         role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/men/60.jpg",
+        image: "https://ui.shadcn.com/avatars/02.png",
+      },
+      {
+        name: "Akash ",
+        contact: "9449658382",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/02.png",
       },
     ],
     faqs: [
@@ -572,6 +571,7 @@ export const evento: Event[] = [
     featured: false,
     gradient: "from-blue-500 to-gray-400",
   },
+  // short film
   {
     slug: "short-film",
     name: "Short Film",
@@ -580,7 +580,7 @@ export const evento: Event[] = [
       "A filmmaking competition where participants create a short film that tells a compelling story within a limited time frame.",
     date: "April 10, 2025",
     time: "10:00 AM - 4:00 PM",
-    venue: "Auditorium",
+    venue: "IS seminar hall",
     category: "Artistic",
     image: "/events/image10.jpeg",
     rules: [
@@ -612,11 +612,18 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Rohan Mehta",
-        contact: "78965 43211",
-        email: "rohan@example.com",
+        name: "Sibi Varma P",
+        contact: "8880211819",
+        email: "",
         role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/men/70.jpg",
+        image: "https://ui.shadcn.com/avatars/02.png",
+      },
+      {
+        name: "Likith",
+        contact: "6361165164",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/02.png",
       },
     ],
     faqs: [
@@ -634,6 +641,7 @@ export const evento: Event[] = [
     featured: false,
     gradient: "from-red-500 to-black",
   },
+  // treasure hunt
   {
     slug: "treasure-hunt",
     name: "Treasure Hunt",
@@ -642,7 +650,7 @@ export const evento: Event[] = [
       "A fun and adventurous event where teams race against time to solve riddles and complete tasks to find the final treasure.",
     date: "April 11, 2025",
     time: "11:00 AM - 3:00 PM",
-    venue: "College Campus",
+    venue: "IS seminar hall [College Campus ]",
     category: "Adventure",
     image: "/events/image11.jpeg",
     rules: [
@@ -674,11 +682,18 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Sneha Kapoor",
-        contact: "97865 43210",
-        email: "sneha@example.com",
+        name: "Sriviveka ",
+        contact: "8088736282",
+        email: "",
         role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/women/55.jpg",
+        image: "https://ui.shadcn.com/avatars/01.png",
+      },
+      {
+        name: "Shreyas  ",
+        contact: "7019444158",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/02.png",
       },
     ],
     faqs: [
@@ -696,28 +711,23 @@ export const evento: Event[] = [
     featured: false,
     gradient: "from-green-500 to-yellow-400",
   },
+  // fashion show
   {
     slug: "fashion-show",
     name: "Fashion Show",
     tagline: "Walk the ramp, own the spotlight",
     description:
       "A glamorous event where teams showcase their fashion sense, style, and confidence on the runway.",
-    date: "April 12, 2025",
+    date: "April 3, 2025",
     time: "7:00 PM - 10:00 PM",
     venue: "Main Stage",
     category: "Cultural",
     image: "/events/image12.jpeg",
-    rules: [
-      "Team size: 5-12 members.",
-      "Each team gets 10 minutes on stage.",
-      "Themes must be pre-approved by the coordinators.",
-      "No vulgar or inappropriate content is allowed.",
-      "Judging criteria: Theme Interpretation (30%), Costume & Styling (30%), Walk & Confidence (20%), Creativity (20%).",
-    ],
+    rules: [],
     eligibility: ["Open to all college students with valid ID cards."],
     registration: {
       method: "Online Registration",
-      deadline: "April 11, 2025",
+      deadline: "April 1, 2025",
       fee: "₹1000 per team",
       link: "#register",
     },
@@ -735,11 +745,19 @@ export const evento: Event[] = [
     ],
     coordinators: [
       {
-        name: "Ananya Sharma",
-        contact: "98765 87654",
-        email: "ananya@example.com",
+        name: "Akash Gowda",
+        contact: "8762021044",
+        email: "akashgowda1603@gmail.com",
         role: "Event Coordinator",
-        image: "https://randomuser.me/api/portraits/women/60.jpg",
+        image:
+          "https://3bvv3yffqy.ufs.sh/f/zNuOBIssVhSAmMsxOZiZPeLlOQGu6bFfW35rgEjApN1BvtDJ",
+      },
+      {
+        name: "Jiya agarwal",
+        contact: "7349184674",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/01.png",
       },
     ],
     faqs: [
@@ -754,6 +772,140 @@ export const evento: Event[] = [
     ],
     maxTeamSize: 12,
     minTeamSize: 5,
+    featured: false,
+    gradient: "from-pink-500 to-purple-400",
+  },
+  // ad making
+  {
+    slug: "ad-making",
+    name: "Ad Making Competition",
+    tagline: "Create. Captivate. Convince.",
+    description:
+      "A creative challenge where teams conceptualize, script, and produce compelling advertisements within a given time frame.",
+    date: "April 13, 2025",
+    time: "2:00 PM - 5:00 PM",
+    venue: "Media Hall",
+    category: "Cultural",
+    image: "/events/image8.jpeg",
+    rules: [
+      "Teams must create an advertisement based on the theme provided at the start of the event.",
+      "The duration of the ad should be between 30 seconds to 1 minute.",
+      "All content must be original and should not contain any copyrighted material.",
+      "Teams must submit their final video before the given deadline.",
+      "Use of offensive, obscene, or inappropriate content will lead to disqualification.",
+      "Participants should bring their own devices for editing if required.",
+      "Judgment will be based on creativity, originality, message clarity, and overall impact.",
+    ],
+    eligibility: ["Open to all college students with valid ID cards."],
+    registration: {
+      method: "Online Registration",
+      deadline: "April 12, 2025",
+      fee: "₹800 per team",
+      link: "#register",
+    },
+    prizes: [
+      {
+        position: "1st Prize",
+        amount: "₹20,000",
+        description: "Cash prize + Trophy + Certificate",
+      },
+      {
+        position: "2nd Prize",
+        amount: "₹10,000",
+        description: "Cash prize + Certificate",
+      },
+    ],
+    coordinators: [
+      {
+        name: "Nischal",
+        contact: "7411405134",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/04.png",
+      },
+      {
+        name: "Akash R",
+        contact: "9449751537",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/02.png",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can we use background music?",
+        answer: "Yes, teams can bring their own music.",
+      },
+      {
+        question: "Are props allowed?",
+        answer: "Yes, but they must be managed by the team.",
+      },
+    ],
+    maxTeamSize: 12,
+    minTeamSize: 5,
+    featured: false,
+    gradient: "from-pink-500 to-purple-400",
+  },
+  // bigboss
+  {
+    slug: "bigg-boss",
+    name: "Bigg Boss",
+    tagline: "Survive. Strategize. Win.",
+    description:
+      "An intense reality-style competition where participants face strategic, social, and physical challenges while living under constant surveillance.",
+    date: "April 3-4, 2025",
+    time: "2:00 PM - 5:00 PM",
+    venue: "Media Hall",
+    category: "Entertainment",
+    image: "/events/image13.jpeg",
+    rules: [
+      "Participants will be assigned various tasks and challenges to complete.",
+      "Eliminations will take place at set intervals based on voting and performance.",
+      "No external communication devices (phones, smartwatches, etc.) are allowed.",
+      "Contestants must follow all house rules and respect fellow participants.",
+      "Breaking any rules will result in immediate disqualification.",
+      "Final winners will be decided based on audience votes and jury evaluation.",
+    ],
+    eligibility: ["Open to all college students with valid ID cards."],
+    registration: {
+      method: "Online Registration",
+      deadline: "April 1, 2025",
+      fee: "₹1000 per player",
+      link: "#register",
+    },
+    prizes: [
+      {
+        position: "1st Prize",
+        amount: "₹20,000",
+        description: "Cash prize + Trophy + Certificate",
+      },
+      {
+        position: "2nd Prize",
+        amount: "₹10,000",
+        description: "Cash prize + Certificate",
+      },
+    ],
+    coordinators: [
+      {
+        name: "Hanish ",
+        contact: "9148982526",
+        email: "",
+        role: "Event Coordinator",
+        image: "https://ui.shadcn.com/avatars/03.png",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can participants leave midway?",
+        answer: "No, leaving midway will result in automatic disqualification.",
+      },
+      {
+        question: "Will there be food provided?",
+        answer: "Yes, meals and refreshments will be arranged.",
+      },
+    ],
+    maxTeamSize: 5,
+    minTeamSize: 1,
     featured: false,
     gradient: "from-pink-500 to-purple-400",
   },

@@ -29,6 +29,9 @@ export const Navbar = () => {
             <Link href="/team" className="hover:text-white transition">
               Team
             </Link>
+            <Link href="/passes" className="hover:text-white transition">
+              Passes
+            </Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -86,6 +89,13 @@ export const Navbar = () => {
               onClick={() => setIsOpen(false)}
             >
               Team
+            </Link>
+            <Link
+              href="/passes"
+              className="text-white/80 hover:text-white text-lg transition"
+              onClick={() => setIsOpen(false)}
+            >
+              passes
             </Link>
           </motion.nav>
         )}

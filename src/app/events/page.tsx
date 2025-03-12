@@ -74,6 +74,11 @@ export default function EventPage() {
       description: "Walk the ramp and showcase your fashion sense.",
       isPublished: true,
     },
+    {
+      title: "Bigg boss",
+      description: "Survive. Strategize. Win.",
+      isPublished: true,
+    },
   ];
 
   return (
