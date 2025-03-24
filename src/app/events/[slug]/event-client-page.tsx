@@ -33,7 +33,14 @@ export default function EventPageClient({ event }: EventPageClientProps) {
   useEffect(() => {
     setIsLoaded(true);
   }, []);
-
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/brochure.pdf"; // Ensure the file is placed in the public folder
+    link.download = "Tattva_2025_Brochure.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
     visible: (i: number) => ({
@@ -63,7 +70,9 @@ export default function EventPageClient({ event }: EventPageClientProps) {
       style={{ backgroundImage: "url('/background.png')" }}
     >
       {/* Navbar */}
-      <Navbar />
+      <div className="z-40 fixed w-full">
+        <Navbar />
+      </div>
 
       {/* Hero Section */}
       <motion.div
@@ -399,7 +408,11 @@ export default function EventPageClient({ event }: EventPageClientProps) {
                       Register Now
                     </Button>
                   </Link>
-                  <Button variant="outline" className="w-full">
+                  <Button
+                    variant="outline"
+                    className="w-full"
+                    onClick={handleDownload}
+                  >
                     <Download className="h-4 w-4 mr-2" />
                     Download Rules PDF
                   </Button>

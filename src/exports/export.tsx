@@ -29,7 +29,7 @@ export const evento: Event[] = [
     registration: {
       method: "Online Registration",
       deadline: "On Spot available",
-      fee: "₹200 per participant",
+      fee: "₹99 per participant",
       link: "#register",
     },
     prizes: [
@@ -106,7 +106,7 @@ export const evento: Event[] = [
     ],
     registration: {
       method: "Online Registration",
-      deadline: "April 3, 2025",
+      deadline: "April 4, 2025",
       fee: "₹269 per group",
       link: "#register",
     },
@@ -160,7 +160,7 @@ export const evento: Event[] = [
     tagline: "Express yourself through movement",
     description:
       "A platform to showcase individual talent in dance. Participants can perform freestyle, classical, contemporary, or any other dance form.",
-    date: "April 6, 2025",
+    date: "April 5, 2025",
     time: "3:00 PM - 6:00 PM",
     venue: "Open Air Theatre",
     category: "Cultural",
@@ -179,7 +179,7 @@ export const evento: Event[] = [
     registration: {
       method: "Online Registration",
       deadline: "April 5, 2025",
-      fee: "₹200 per participant",
+      fee: "₹99 per participant",
       link: "#register",
     },
     prizes: [
@@ -232,7 +232,7 @@ export const evento: Event[] = [
     tagline: "A dance of perfect synchronization",
     description:
       "A duo dance competition where partners showcase their chemistry, coordination, and creativity through a stunning performance.",
-    date: "April 6, 2025",
+    date: "April 5, 2025",
     time: "6:00 PM - 8:00 PM",
     venue: "Open Air Theatre",
     category: "Cultural",
@@ -248,7 +248,7 @@ export const evento: Event[] = [
     registration: {
       method: "Online Registration",
       deadline: "April 5, 2025",
-      fee: "₹400 per team",
+      fee: "₹179 per team",
       link: "#register",
     },
     prizes: [
@@ -301,7 +301,7 @@ export const evento: Event[] = [
     tagline: "Unite, dance, and set the stage on fire!",
     description:
       "A high-energy group dance competition where teams showcase their coordination, energy, and stage presence.",
-    date: "April 7, 2025",
+    date: "April 5, 2025",
     time: "5:00 PM - 8:00 PM",
     venue: "Main Stage",
     category: "Cultural",
@@ -316,19 +316,19 @@ export const evento: Event[] = [
     eligibility: ["Open to all college students with valid ID cards."],
     registration: {
       method: "Online Registration",
-      deadline: "April 6, 2025",
-      fee: "₹800 per team",
+      deadline: "April 5, 2025",
+      fee: "₹1000 per team",
       link: "#register",
     },
     prizes: [
       {
         position: "1st Prize",
-        amount: "₹20,000",
+        amount: "₹10,000",
         description: "Cash prize + Trophy + Certificate",
       },
       {
         position: "2nd Prize",
-        amount: "₹10,000",
+        amount: "₹5,000",
         description: "Cash prize + Certificate",
       },
     ],
@@ -370,7 +370,7 @@ export const evento: Event[] = [
     tagline: "Express without words",
     description:
       "A silent yet powerful storytelling competition where teams convey emotions, messages, and narratives through expressive actions and facial expressions.",
-    date: "April 8, 2025",
+    date: "April 4, 2025",
     time: "2:00 PM - 4:00 PM",
     venue: "Auditorium",
     category: "Cultural",
@@ -386,7 +386,7 @@ export const evento: Event[] = [
     eligibility: ["Open to all college students with valid ID cards."],
     registration: {
       method: "Online Registration",
-      deadline: "April 7, 2025",
+      deadline: "April 5, 2025",
       fee: "₹500 per team",
       link: "#register",
     },
@@ -440,7 +440,7 @@ export const evento: Event[] = [
     tagline: "Creative advertising with a twist",
     description:
       "An entertaining event where teams create humorous and exaggerated advertisements for fictional or real products.",
-    date: "April 8, 2025",
+    date: "April 4, 2025",
     time: "4:00 PM - 6:00 PM",
     venue: "Auditorium",
     category: "Cultural",
@@ -455,8 +455,8 @@ export const evento: Event[] = [
     eligibility: ["Open to all college students with valid ID cards."],
     registration: {
       method: "Online Registration",
-      deadline: "April 7, 2025",
-      fee: "₹400 per team",
+      deadline: "April 5, 2025",
+      fee: "₹269 per team",
       link: "#register",
     },
     prizes: [
@@ -510,7 +510,7 @@ export const evento: Event[] = [
     tagline: "Capture the moment, tell a story",
     description:
       "A photography contest to showcase your skills in capturing stunning images with creativity and composition.",
-    date: "April 9, 2025",
+    date: "April 4, 2025",
     time: "All Day",
     venue: "College Campus",
     category: "Artistic",
@@ -524,8 +524,8 @@ export const evento: Event[] = [
     eligibility: ["Open to all college students with valid ID cards."],
     registration: {
       method: "Online Registration",
-      deadline: "April 8, 2025",
-      fee: "₹150 per participant",
+      deadline: "April 4, 2025",
+      fee: "₹99 per participant",
       link: "#register",
     },
     prizes: [
@@ -578,7 +578,7 @@ export const evento: Event[] = [
     tagline: "Lights, camera, action!",
     description:
       "A filmmaking competition where participants create a short film that tells a compelling story within a limited time frame.",
-    date: "April 10, 2025",
+    date: "April 4, 2025",
     time: "10:00 AM - 4:00 PM",
     venue: "IS seminar hall",
     category: "Artistic",
@@ -594,8 +594,8 @@ export const evento: Event[] = [
     eligibility: ["Open to all college students with valid ID cards."],
     registration: {
       method: "Online Registration",
-      deadline: "April 9, 2025",
-      fee: "₹500 per team",
+      deadline: "April 4, 2025",
+      fee: "₹269 per team",
       link: "#register",
     },
     prizes: [
@@ -665,7 +665,7 @@ export const evento: Event[] = [
     registration: {
       method: "On-spot Registration",
       deadline: "April 11, 2025",
-      fee: "₹300 per team",
+      fee: "₹269 per team",
       link: "#register",
     },
     prizes: [
@@ -718,7 +718,7 @@ export const evento: Event[] = [
     tagline: "Walk the ramp, own the spotlight",
     description:
       "A glamorous event where teams showcase their fashion sense, style, and confidence on the runway.",
-    date: "April 3, 2025",
+    date: "April 4, 2025",
     time: "7:00 PM - 10:00 PM",
     venue: "Main Stage",
     category: "Cultural",
@@ -728,7 +728,7 @@ export const evento: Event[] = [
     registration: {
       method: "Online Registration",
       deadline: "April 1, 2025",
-      fee: "₹1000 per team",
+      fee: "₹2000 per team",
       link: "#register",
     },
     prizes: [
@@ -800,7 +800,7 @@ export const evento: Event[] = [
     registration: {
       method: "Online Registration",
       deadline: "April 12, 2025",
-      fee: "₹800 per team",
+      fee: "₹169 per team",
       link: "#register",
     },
     prizes: [
@@ -853,7 +853,7 @@ export const evento: Event[] = [
     tagline: "Survive. Strategize. Win.",
     description:
       "An intense reality-style competition where participants face strategic, social, and physical challenges while living under constant surveillance.",
-    date: "April 3-4, 2025",
+    date: "April 4-5, 2025",
     time: "2:00 PM - 5:00 PM",
     venue: "Media Hall",
     category: "Entertainment",
@@ -870,7 +870,7 @@ export const evento: Event[] = [
     registration: {
       method: "Online Registration",
       deadline: "April 1, 2025",
-      fee: "₹1000 per player",
+      fee: "₹499 per player",
       link: "#register",
     },
     prizes: [

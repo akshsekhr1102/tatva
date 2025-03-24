@@ -83,14 +83,14 @@ export default function EventPage() {
 
   return (
     <div
-      className="min-h-screen w-full flex flex-col bg-fixed bg-cover bg-center bg-no-repeat"
+      className="min-h-screen w-full flex flex-col bg-fixed bg-cover bg-center bg-no-repeat "
       style={{ backgroundImage: "url('/background.png')" }}
     >
       {/* Navbar */}
       <Navbar />
 
       {/* Page Content */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 bg-gradient-to-b from-transparent via-transparent/90 to-transparent/90">
         {/* Header Section */}
         <div className="text-center mb-12 mt-8">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-lg">

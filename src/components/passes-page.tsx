@@ -210,7 +210,7 @@ export default function PassesPage() {
       <Navbar />
 
       {/* Page Content */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 bg-gradient-to-b from-transparent via-transparent/90 to-transparent/90">
         {/* Header Section */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -318,7 +318,7 @@ export default function PassesPage() {
             </span>
           </h2>
 
-          <Tabs defaultValue="solo" className="w-full">
+          <Tabs defaultValue="solo" className="w-full text-sm">
             <TabsList className="grid grid-cols-3 mb-8">
               {eventCategories.map((category) => (
                 <TabsTrigger
@@ -326,8 +326,7 @@ export default function PassesPage() {
                   value={category.name.toLowerCase().replace(" ", "")}
                 >
                   <div className="flex items-center gap-2">
-                    {category.icon}
-                    <span>{category.name}</span>
+                    <span className="text-sm">{category.name}</span>
                   </div>
                 </TabsTrigger>
               ))}

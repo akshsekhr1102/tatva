@@ -73,14 +73,14 @@ export function EventCard({ event, index }: { event: Event; index: number }) {
           </CardTitle>
           <CardDescription className="flex items-center gap-1 text-gray-300">
             <Calendar className="h-3 w-3" />
-            <span>SAT 01 JAN 2025</span>
+            <span> 04-05 APRIL 2025</span>
           </CardDescription>
         </CardHeader>
 
         <CardContent className="pt-3">
           <div className="flex items-center gap-1 text-xs text-gray-400 mb-2">
             <Clock className="h-3 w-3" />
-            <span>7:00 AM</span>
+            <span>7:00AM-4:00PM</span>
             <span className="mx-1">•</span>
             <MapPin className="h-3 w-3" />
             <span>Main Auditorium</span>

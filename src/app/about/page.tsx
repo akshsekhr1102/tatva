@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/navbar";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -81,23 +82,23 @@ export default function AboutPage() {
           </p>
           <p className="text-lg text-gray-300 mt-2">
             For inquiries, reach out to us at:
-            <a
+            <Link
               href="mailto:tattva.vemanothsav@gmail.com"
               className="text-yellow-300 underline"
             >
               {" "}
               tattva.vemanothsav@gmail.com
-            </a>
+            </Link>
           </p>
           <p className="text-lg text-gray-300 mt-2">
             Visit our college website:
-            <a
+            <Link
               href="https://vemanait.edu.in/"
               className="text-yellow-400 underline"
             >
               {" "}
               Vemana Institute of Technology
-            </a>
+            </Link>
           </p>
         </div>
 

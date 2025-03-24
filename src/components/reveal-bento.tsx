@@ -90,36 +90,36 @@ const HeaderBlock = () => (
 const SocialsBlock = () => (
   <>
     <Block className="col-span-6 bg-red-500 md:col-span-3">
-      <a
+      <Link
         href="https://www.youtube.com/@vemanainstituteoftechnolog9250"
         className="grid h-full place-content-center text-3xl text-white"
       >
         <Youtube />
-      </a>
+      </Link>
     </Block>
     <Block className="col-span-6 bg-fuchsia-700 md:col-span-3">
-      <a
+      <Link
         href="mailto:tattva.vemanothsav@gmail.com"
         className="grid h-full place-content-center text-3xl text-white"
       >
         <MailIcon />
-      </a>
+      </Link>
     </Block>
     <Block className="col-span-6 bg-blue-500 md:col-span-3">
-      <a
+      <Link
         href="https://www.linkedin.com/school/vemana-institute-of-technology-koramangala-bengaluru/?originalSubdomain=in"
         className="grid h-full place-content-center text-3xl text-black"
       >
         <LinkedinIcon />
-      </a>
+      </Link>
     </Block>
     <Block className="col-span-6 bg-gradient-to-br from-purple-500 via-pink-500 to-yellow-400 md:col-span-3">
-      <a
+      <Link
         href="https://www.instagram.com/vemanotsav2k25/"
         className="grid h-full place-content-center text-3xl text-white"
       >
         <InstagramIcon />
-      </a>
+      </Link>
     </Block>
   </>
 );
@@ -156,7 +156,7 @@ const LocationBlock = () => (
 
 const EmailListBlock = () => (
   <Block className="col-span-12 md:col-span-9">
-    <p className="mb-3 text-lg">Stay Updated with Tatcetva 2025!</p>
+    <p className="mb-3 text-lg">Stay Updated with Tattva 2025!</p>
     <form
       onSubmit={(e) => e.preventDefault()}
       className="flex items-center gap-2"

@@ -1,16 +1,11 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Outfit } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
   variable: "--font-outfit-sans",
-  subsets: ["latin", "latin-ext"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -43,9 +38,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#FFD700" />
         <link rel="canonical" href="https://vemanothsav.in" />
       </head>
-      <body className={`${outfit.className} ${geistMono.variable} antialiased`}>
-        {children}
-      </body>
+      <body className={`${outfit.className}  antialiased`}>{children}</body>
     </html>
   );
 }
