@@ -1002,8 +1002,8 @@ export default function TournamentClient({
                     <Link
                       href={
                         tournament.game === "valorant"
-                          ? "https://docs.google.com/forms/d/e/1FAIpQLSdDhHVqH1ZY37jZa9gn1eeHziX5bZoKlhLHTfndyDTl7wbKyA/viewform?usp=sharing"
-                          : ""
+                          ? "https://forms.gle/Rsyrr3d4sbdhzJ8v7"
+                          : "https://docs.google.com/forms/d/e/1FAIpQLSdDhHVqH1ZY37jZa9gn1eeHziX5bZoKlhLHTfndyDTl7wbKyA/viewform?usp=sharing"
                       }
                     >
                       <Button>Register now</Button>
