@@ -24,7 +24,7 @@ export default function Home() {
         <FeaturedGames />
 
         {/* Upcoming Tournaments Section */}
-        <ParallaxSection className="py-20 px-6 bg-black/50">
+        {/* <ParallaxSection className="py-20 px-6 bg-black/50">
           <div className="max-w-7xl mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -42,7 +42,7 @@ export default function Home() {
               </p>
             </motion.div>
           </div>
-        </ParallaxSection>
+        </ParallaxSection> */}
 
         {/* Sponsors Section */}
         <ParallaxSection className="py-20 px-6 bg-black">

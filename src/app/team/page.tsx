@@ -8,6 +8,17 @@ export default function TeamPage() {
     >
       {/* Navbar */}
       <Navbar />
+      <div>
+        {/*Bhushith 
+        Hanish
+        Sonith
+        Shivani
+        Aditya
+        Akash
+        Harsha
+        Varsha 
+        */}
+      </div>
 
       {/* Page Content */}
       <div className="container mx-auto px-4 py-8"></div>
